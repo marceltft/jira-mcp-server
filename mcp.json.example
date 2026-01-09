@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "jira": {
+      "command": "node",
+      "args": ["/Users/marcel.santos/dev/jira-mcp-server/dist/index.js"],
+      "env": {
+        "JIRA_BASE_URL": "https://jira.sua-empresa.com",
+        "JIRA_USERNAME": "seu.usuario",
+        "JIRA_API_TOKEN": "seu-token-ou-senha"
+      }
+    }
+  }
+}
+
+
